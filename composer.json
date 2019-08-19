@@ -1,0 +1,29 @@
+{
+    "name": "holman/{{composer-name}}",
+    "description": "{{composer-description}}",
+    "version": "{{package-version}}",
+    "type": "{{package-type}}",
+    "require": {
+        "php": "^{{composer-minimum-php-version}}"
+    },
+    "autoload": {
+        "psr-4": {
+            "{{composer-namespace}}": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "{{composer-minimum-phpunit-version}}"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "{{composer-author-name}}",
+            "email": "{{composer-author-email}}"
+        }
+    ]
+}
